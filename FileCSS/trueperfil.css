@@ -1,0 +1,164 @@
+html{
+    font-size: 62.5%;
+
+}
+@import url(‘https://fonts.googleapis.com/css?family=Roboto+Mono:400,500,700|Roboto+Slab:400,700|Roboto:400,500,700,900&display=swap’);
+*{
+    font-family:  "Roboto Mono", monospace;
+    
+    box-sizing: border-box;
+    padding:0px;
+    margin: 0px;
+    font-size: 1.6rem;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+header section{
+
+    background-color: #47cfad;
+    height: 5rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
+
+header nav{
+    width: 100%;
+    display: flex;
+    height: 7rem;
+}
+header section div{
+margin-right: 2rem;
+}
+
+nav div{
+
+    width: 49%;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+.nav-right a{
+    font-size: 2rem;
+
+}
+
+header section a img{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 3rem;
+    cursor: pointer;
+}
+
+.Logo-negro img{
+    width: 25rem;
+}
+
+footer .first{
+    height: 5rem;
+    background-color: #47cfad;
+}
+footer .second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blanchedalmond;
+    height: 8rem;
+    background-color: #21272d;
+}
+
+
+.contac{
+    background-color: #e6e9ed;
+    height: 30rem;
+    display: flex;
+    width: 100%
+;}
+main{
+    margin-bottom: 8rem;
+}
+
+.contac-left{
+    margin-top: 8rem;
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 49%;
+}
+.contac-img{
+    width: 10%;
+}
+.contac .text{
+    margin-left: 5rem;
+width: 60%}
+.contac-rigth{
+    margin-top: 8rem;
+
+    display: flex;
+    justify-content: center;
+    height: 80%;
+    width: 49%;
+}
+.contac img{
+    width: 100%;
+}
+.first-text{
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+.presentation{
+    background-color: #e6e9ed;
+    display: flex;
+    justify-content: center;
+}
+.presentation .left{
+    width: 30%;
+    margin: 6rem 0;
+}
+.presentation .rigth{
+    width: 50%;
+    padding-left: 5rem;  
+      margin: 6rem 0;
+
+}
+.presentation img{
+    width: 100%;
+}
+.proyectos{
+    display: block;
+}
+.proyectos-lista{
+    display: flex;
+    margin: 5rem 8rem;
+    justify-content: center;
+
+}
+.proyectos-lista div{
+    display: block;
+    margin-left: 2rem;
+}
+.proyectos .title {
+width: 80%;
+margin: 3rem auto;
+border-bottom: solid #e6e9ed;
+
+}
+.title p{
+font-size: 2rem;
+font-weight: bold;
+align-self: center;
+width: 10rem;
+margin: 0 auto;
+
+}
