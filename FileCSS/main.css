@@ -121,7 +121,7 @@ main{
     display: block;
 }
 
-@media all and (max-width : 380px){
+@media all and (max-width : 450px){
     .home-main div p{
         color: white;
 
